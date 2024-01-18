@@ -1,4 +1,5 @@
-# Yes, I'm using make for Rust instead of cargo. Shut up.
+# Yes, I'm using make for Rust instead of cargo. Shut up. This project is simple enough that I can
+# get away with it.
 
 BIN_NAME := 12-days
 DEV_BIN_NAME := devbuild
