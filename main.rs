@@ -7,6 +7,7 @@
 
 // The " 'static " in the return type is needed, because otherwise, the borrow checker will bully
 // me and beat me to death with a wooden bat.
+// Also pretty sure this will not work for negative numbers.
 fn yeild_number_suffix(n: isize) -> &'static str {
     if (n / 10) % 10 == 1 {
         return "th";
