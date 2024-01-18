@@ -46,7 +46,7 @@ fn print_one_iteration(day: isize) -> bool {
     println!("On the {day}{} day of Christmas, my true love gave to me:",yeild_number_suffix(day));
 
     if day > 1 {
-        for i in (0..day).rev() {
+        for i in (1..day).rev() {
             println!("{},",items[i as usize]);
         }
 
